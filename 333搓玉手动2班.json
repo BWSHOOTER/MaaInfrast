@@ -1,0 +1,285 @@
+{
+	"plans":[
+		{
+			"rooms":{
+				"trading":[
+					{
+						"product":"LMD",
+						"operators":[
+							"巫恋",
+							"龙舌兰",
+							"卡夫卡"
+						],
+						"sort":true
+					},
+					{
+						"product":"LMD",
+						"operators":[
+							"但书",
+							"孑",
+							"银灰"
+						],
+						"sort":true
+					},
+					{
+						"product":"",
+						"operators":[
+							"空弦",
+							"石英",
+							"安比尔"
+						],
+						"sort":true
+					}
+				],
+				"manufacture":[
+					{
+						"product":"Pure Gold",
+						"operators":[
+							"清流",
+							"温蒂",
+							"森蚺"
+						],
+						"sort":true
+					},
+					{
+						"product":"Pure Gold",
+						"operators":[
+							"砾",
+							"苍苔",
+							"斑点"
+						],
+						"sort":true
+					},
+					{
+						"product":"Originium Shard",
+						"operators":[
+							"泡泡",
+							"火神",
+							"褐果"
+						],
+						"sort":true
+					}
+				],
+				"hire":[
+					{
+						"operators":[
+							"斥罪"
+						],
+						"autofill":true
+					}
+				],
+                "dormitory": [
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    }
+                ],
+                "control": [
+                    {
+                        "operators": [
+                            "阿米娅",
+                            "灵知",
+							"玛恩纳",
+							"寒芒克洛丝",
+							"炎狱炎熔"
+                        ],
+                        "autofill": true
+                    }
+                ],
+				"power":[
+					{
+						"operators":[
+							"承曦格雷伊"
+						],
+						"autofill":true
+					},
+					{
+						"operators":[
+							"格雷伊"
+						],
+						"autofill":true
+					},
+					{
+						"operators":[
+							"澄闪"
+						],
+						"autofill":true
+					}
+				],
+				"meeting":[
+					{
+						"operators":[
+							"陈",
+							"星极"
+						],
+						"autofill":false
+					}
+				]
+			},
+            "Fiammetta": {
+                "enable": true,
+                "target": "巫恋",
+                "order": "pre"
+            },
+			"drones":{
+				"enable":true,
+				"index":1,
+				"room":"trading",
+				"order":"post"
+			},
+			"name":"高效组",
+			"description":"晨曦格雷伊"
+		},
+		{
+			"rooms":{
+				"trading":[
+					{
+						"product":"LMD",
+						"operators":[
+							"巫恋",
+							"龙舌兰",
+							"柏喙"
+						],
+						"sort":true
+					},
+					{
+						"product":"LMD",
+						"operators":[
+							"德克萨斯",
+							"能天使",
+							"拉普兰德"
+						],
+						"sort":true
+					},
+					{
+						"product":"",
+						"operators":[
+							"古米",
+							"月见夜",
+							"空爆"
+						],
+						"sort":true
+					}
+				],
+				"manufacture":[
+					{
+						"product":"Pure Gold",
+						"operators":[
+							"多萝西",
+							"白面鸮",
+							"赫默"
+						],
+						"sort":true
+					},
+					{
+						"product":"Pure Gold",
+						"operators":[
+							"水月",
+							"史都华德",
+							"香草"
+						],
+						"sort":true
+					},
+					{
+						"product":"Originium Shard",
+						"operators":[
+							"槐琥",
+							"艾雅法拉",
+							"炎熔"
+						],
+						"sort":true
+					}
+				],
+				"hire":[
+					{
+						"operators":[
+							"伊桑"
+						],
+						"autofill":true
+					}
+				],
+                "dormitory": [
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    },
+                    {
+                        "autofill": true
+                    }
+                ],
+                "control": [
+                    {
+                        "operators": [
+                            "诗怀雅",
+                            "凯尔希",
+							"灰烬",
+							"战车",
+							"闪击"
+                        ],
+                        "autofill": true
+                    }
+                ],
+				"power":[
+					{
+						"operators":[
+							"缪尔赛思"
+						],
+						"autofill":true
+					},
+					{
+						"operators":[
+							"伊芙利特"
+						],
+						"autofill":true
+					},
+					{
+						"operators":[
+							"雷蛇"
+						],
+						"autofill":true
+					}
+				],
+				"meeting":[
+					{
+						"operators":[
+							"红",
+							"远山"
+						],
+						"autofill":true
+					}
+				]
+			},
+            "Fiammetta": {
+                "enable": true,
+                "target": "龙舌兰",
+                "order": "pre"
+            },
+			"drones":{
+				"enable":true,
+				"index":1,
+				"room":"trading",
+				"order":"post"
+			},
+			"name":"低效组",
+			"description":"缪尔赛斯"
+		}
+	],
+	"author":"bw",
+	"description":"",
+	"id":1692020092979795,
+	"title":"333搓玉手动2班",
+	"buildingType":"333"
+}
